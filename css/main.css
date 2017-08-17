@@ -680,11 +680,11 @@ footer .inner .links .site-links {
   border-bottom: 1px solid #eee; }
 
 
-  /* =============================================================================
+/* =============================================================================
 
-  ETHOS PAGE STYLES
+ETHOS PAGE STYLES
 
-  ==============================================================================*/
+==============================================================================*/
 
 .hero {
   margin-top: 62px; /* offset space from header */
@@ -733,11 +733,248 @@ footer .inner .links .site-links {
 
 
 
+.good-for-you {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.good-for-you .wrapper {
+  margin: 0 auto;
+  max-width: 560px;
+}
+
+.good-for-you h2 {
+  font-family: 'Caslon 224 Medium';
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 55px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.good-for-you p {
+  font-size: 16px;
+  line-height: 28px;
+  padding: 0 60px;
+}
+
+.cta-boxes {
+  display: flex;
+}
+
+.ourvision-box,
+.foodethos-box {
+  width: 50%;
+  display: inline-block;
+  padding: 100px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.full {
+  width: 100%;
+}
+
+.ourvision-box {
+  background-image: url("../assets/plant.jpg");
+}
+
+.ourvision-box h3 {
+  font-family: 'Caslon 224 Medium';
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 55px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.ourvision-box p {
+  font-size: 16px;
+  line-height: 28px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.foodethos-box {
+  background-image: url("../assets/edit12.jpg");
+}
+
+.foodethos-box h3 {
+  font-family: 'Caslon 224 Medium';
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 55px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.foodethos-box p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+/* buttons */
+
+.cta-button {
+  font-size: 12px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+
+  transition: 0.2s;
+}
+
+.hollow {
+  border: 1px solid black;
+}
+
+.hollow:hover {
+  background-color: black;
+  color: white;
+}
+
+.white:hover {
+  background-color: black;
+  color: white;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.black:hover {
+  background-color: #212121;
+}
+
+.box-inner {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.calltoaction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.calltoaction .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calltoaction .box img {
+  max-width: 500px;
+}
+
+.calltoaction .box {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.calltoaction .box h3 {
+  font-family: 'Caslon 224 Medium';
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 55px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
 
 
+/* our food ethos */
 
+.foodethos-hero {
+  margin-top: 62px; /* offset space from header */
+  height: 600px;
+  background-image: url("../assets/edit12.jpg");
+  background-size: cover;
+  display: block;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
+  border-bottom: 1px solid #EFEFEF
+}
+
+.foodethos-hero .wrapper {
+  text-align: center;
+  max-width: 500px;
+}
+
+.foodethos-hero .wrapper h1 {
+  font-family: 'Caslon 224 Medium';
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.foodethos-hero .wrapper p {
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 40px;
+}
+
+.our-food-fundamentals {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.our-food-fundamentals h2 {
+  font-family: 'Caslon 224 Medium';
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: -2px;
+  line-height: 55px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+.point-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.point {
+  width: 50%;
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 50px;
+}
+
+.point h4 {
+  font-weight: 800;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.point p {
+  font-size: 14px;
+  line-height: 28px;
+}
 
 
 

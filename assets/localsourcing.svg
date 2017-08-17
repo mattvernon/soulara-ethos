@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>localsourcing</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Food-Ethos" transform="translate(-911.000000, -1204.000000)" stroke="#444444" stroke-width="2">
+            <g id="Food-Fundamentals" transform="translate(347.000000, 746.000000)">
+                <g id="localsourcing" transform="translate(565.000000, 459.000000)">
+                    <path d="M18,7 C18,11.32 11,18.375 11,18.375 C11,18.375 4,11.32 4,7 C4,2.57 7.617,0 11,0 C14.383,0 18,2.57 18,7 Z" id="Shape" stroke-linecap="square"></path>
+                    <circle id="Oval" stroke-linecap="square" cx="11" cy="7" r="2"></circle>
+                    <path d="M17,16.485 C20.01,17.02 22,17.947 22,19 C22,20.657 17.075,22 11,22 C4.925,22 0,20.657 0,19 C0,17.947 1.99,17.02 5,16.485" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

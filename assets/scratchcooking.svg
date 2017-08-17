@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="24px" viewBox="0 0 20 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>scratchcooking</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Our-Food-Ethos" transform="translate(-512.000000, -885.000000)" stroke="#444444" stroke-width="2">
+            <g id="Food-Fundamentals" transform="translate(347.000000, 746.000000)">
+                <g id="scratchcooking" transform="translate(166.000000, 140.000000)">
+                    <path d="M2,10 L2,20 C2,21.1 2.9,22 4,22 L4,22 C5.1,22 6,21.1 6,20 L6,10" id="Shape"></path>
+                    <path d="M8,0 L8,8 C8,9.1 7.1,10 6,10 L2,10 C0.9,10 0,9.1 0,8 L0,0" id="Shape" stroke-linecap="square"></path>
+                    <path d="M4,0 L4,5" id="Shape" stroke-linecap="square"></path>
+                    <path d="M0,5 L8,5" id="Shape" stroke-linecap="square"></path>
+                    <path d="M14,14 L14,20 C14,21.1 14.9,22 16,22 L16,22 C17.1,22 18,21.1 18,20 L18,14" id="Shape"></path>
+                    <path d="M18,14 L12,14 L12,6 C12,2.7 14.7,0 18,0 L18,0 L18,14 Z" id="Shape" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
