@@ -737,12 +737,33 @@ ETHOS PAGE STYLES
   padding-top: 100px;
   padding-bottom: 100px;
   text-align: center;
+  position: relative;
 }
 
 .good-for-you .wrapper {
   margin: 0 auto;
   max-width: 560px;
 }
+
+.fern-left,
+.fern-right {
+  position: absolute;
+  width: 25%;
+  z-index: -2;
+}
+
+.fern-left {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fern-right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 
 .good-for-you h2 {
   font-family: 'Caslon 224 Medium';
@@ -884,6 +905,7 @@ ETHOS PAGE STYLES
 .calltoaction .box {
   margin-left: 30px;
   margin-right: 30px;
+  position: relative;
 }
 
 .calltoaction .box h3 {
@@ -896,6 +918,14 @@ ETHOS PAGE STYLES
   margin-bottom: 60px;
 }
 
+.xoxo {
+  z-index: -2;
+  width: 200px;
+  position: absolute;
+  left: 200px;
+  top: 160px;
+}
+
 
 /* our food ethos */
 
@@ -904,6 +934,7 @@ ETHOS PAGE STYLES
   height: 600px;
   background-image: url("../assets/edit12.jpg");
   background-size: cover;
+  background-position: center center;
   display: block;
 
   display: flex;
@@ -1243,14 +1274,258 @@ ETHOS PAGE STYLES
   float: right;
 }
 
+/* =============================================================================
+
+MENU DROPDOWN
+
+==============================================================================*/
+
+.our-ethos-link {
+  position: relative;
+  display: block;
+  transition: 0.2s;
+}
+
+.ethos-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background-color: black;
+  width: 200px;
+}
+
+.ethos-dropdown {
+  list-style: none!important;
+  -webkit-padding-start: 0px!important;
+  opacity: 0;
+  transition: 0.2s;
+  pointer-events: none;
+}
+
+.ethos-dropdown li {
+  padding-top: 5px!important;
+  padding-bottom: 5px!important;
+  padding-left: 20px!important;
+  transition: 0.2s!important;
+  margin: 0!important;
+  font-family: 'Brandon Text Regular'!important;
+  width: 100%!important;
+}
+
+
+.ethos-dropdown li:hover {
+  background-color: #1F1F1F!important;
+}
+
+.ethos-dropdown a {
+  text-decoration: none!important;
+  color: white!important;
+  font-size: 14px!important;
+  display: inline-block!important;
+  width: 100%!important;
+  font-weight: 700!important;
+  font-size: 12px!important;
+  letter-spacing: 1px!important;
+}
+
+.our-ethos-link:hover .ethos-dropdown {
+  opacity: 1;
+  pointer-events: all;
+}
 
 
 
+/* =============================================================================
+
+RESPONSIVE STYLES
+
+==============================================================================*/
+
+@media (max-width:1100px) {
+
+  .tile h3 {
+    font-size: 16px;
+  }
+
+  .point {
+    width: 50%;
+  }
+}
+
+@media (max-width:900px) {
+
+  .hero .wrapper {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .hero .wrapper .box {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .cta-boxes {
+    flex-wrap: wrap;
+  }
+
+  .ourvision-box,
+  .foodethos-box {
+    width: 100%;
+  }
+
+  .calltoaction .wrapper {
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .calltoaction .wrapper .box {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fern-left,
+  .fern-right {
+    display: none;
+  }
 
 
+  /* food ethos */
+
+  .foodethos-hero {
+    height: 500px;
+  }
+
+  .our-food-fundamentals {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .supply-network {
+    margin-bottom: 50px;
+  }
+
+  .blacklist-wrapper {
+    padding-left: 30px;
+    padding-right: 30px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .blacklist-col {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .supply-chain {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .supply-chain img {
+    width: 100%;
+  }
+
+  /* our vision */
+
+  .tile.-square {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+
+  .tile.-half {
+    padding-bottom: 50%;
+  }
+
+  .tile.-tall {
+    width: 50%;
+  }
+
+  .tile h3 {
+    font-size: 14px;
+  }
+
+  .tile.-white {
+    background-color: #F8F8F8;
+  }
+
+  .supply-network .slider {
+    height: 400px;
+  }
+
+  /* type */
+
+  .wrapper h2,
+  .box-inner h3,
+  .wrapper .box h3,
+  .nutrition-fundamentals h2,
+  .our-food-fundamentals h2,
+  .supply-network h2,
+  .blacklist-intro h2,
+  .supply-chain h2 {
+    font-size: 36px;
+    line-height: 42px;
+  }
+
+  .xoxo {
+    display: none;
+  }
 
 
+}
 
+@media (max-width:480px) {
+
+  .ourvision-box,
+  .foodethos-box {
+    padding: 50px;
+  }
+
+  .our-vision-hero {
+    margin-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .grid-wrapper {
+    margin-bottom: 70px;
+    margin-top: 50px;
+  }
+
+  .point {
+    width: 100%;
+  }
+
+  .foodethos-hero {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 400px;
+  }
+
+  .our-food-fundamentals h2 {
+    margin-bottom: 0px;
+  }
+
+  .supply-network h2 {
+    margin-bottom: 0;
+  }
+
+  .supply-network .slider {
+    margin-top: 40px;
+  }
+
+  .box img {
+    width: 50%;
+  }
+
+  .tile h3 {
+    font-size: 10px;
+  }
+
+}
 
 
 
