@@ -1147,9 +1147,11 @@ ETHOS PAGE STYLES
 /* our vision */
 
 .our-vision-hero {
-  max-width: 450px;
+  max-width: 660px;
   margin: 150px auto 100px auto;
   text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .our-vision-hero h2 {
